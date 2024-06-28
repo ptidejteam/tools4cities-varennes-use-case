@@ -1,0 +1,511 @@
+{
+"building": {
+    "construction_year": 2024,
+    "height": {
+        "value": 8,
+        "unit": "meters"
+    },
+    "floor_area": {
+        "value": 2800,
+        "unit": "square meters"
+    },
+    "internal_mass": {
+        "value": 400,
+        "unit": "kilograms"
+    },
+    "address": {
+        "city": "Montreal",
+        "street": "2221, Boul. René-Gauthier, Varennes",
+        "state": "QC",
+        "zip_code": "J3X 1E4",
+        "country": "Canada",
+        "coordinates": {
+            "latitude": 45.6822459,
+            "longitude": -73.4348878
+        },
+        "what3word": "trips.mass.yell",
+        "north_orientation": ""
+    },
+    "meter":{
+        "type": "Electricity",
+        "manufacturer": "Siemens",
+        "data_frequency": 600,
+        "unit": "kilowatts per hour",
+        "measure_mode": "automatic"
+    },
+    "building_type": "commercial",
+    "zones": [],
+    "floors": [
+        {
+            "area": {
+                "value": 20,
+                "unit": "square meters"
+            },
+            "number": 0,
+            "floor_type": "Regular",
+            "description": "Ground floor",
+            "open_spaces": [
+                {
+                    "name": "Corridor 001",
+                    "space_type": "Corridor",
+                    "area": {"value": 20.61, "unit": "square feet"},
+                    "sensors": [
+                    ],
+                    "zones": ["Zone 1"]
+                }
+            ],
+            "rooms": [
+                {
+                    "name": "Room 001",
+                    "room_type": "storage",
+                    "area": {"value": 25.99, "unit": "square feet"},
+                    "sensors": [
+                        {
+                            "name": "CO2_SENSOR_001",
+                            "log_type": "Polling",
+                            "meta_data": {},
+                            "data": [],
+                            "measure": "carbon dioxide concentration",
+                            "measure_range": {"minimum": 0, "maximum": 2000},
+                            "unit": "ppm",
+                            "data_frequency": 600
+                        },
+                        {
+                            "name": "TMP_SENSOR_001",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree Celsius",
+                            "data_frequency": 600
+                        },
+                        {
+                            "name": "HUM_SENSOR_001",
+                            "log_type": "Polling",
+                            "measure": "humidity",
+                            "measure_range": {},
+                            "output_current_range": {"minimum": 4, "maximum": 20, "unit": "milliAmpere"},
+                            "unit": "relative humidty",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 2"]
+                },
+                {
+                    "name": "Room 002",
+                    "room_type": "storage",
+                    "area": {"value": 30.28, "unit": "square feet"},
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_002",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 1"]
+                },
+                {
+                    "name": "Room 003",
+                    "room_type": "Office",
+                    "area": {"value": 8.43, "unit": "square meters"},
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_003",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 1", "Zone 2"]
+                },
+                {
+                    "name": "Room 004",
+                    "room_type": "Electric",
+                    "area": {"value": 15.87, "unit": "square meters"},
+                    "location": "",
+                    "meter": "",
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_004",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 2"]
+                }
+            ]
+        },
+        {
+            "area": {
+                "value": 250,
+                "unit": "square meters"
+            },
+            "zones": [],
+            "number": 1,
+            "floor_type": "regular",
+            "description": "First floor",
+            "open_spaces": [
+                {
+                    "name": "Escalator area",
+                    "space_type": "Escalator area",
+                    "area": {"value": 40.09, "unit": "square meters"},
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_100",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        },
+                        {
+                            "name": "TMP_SENSOR_102",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 1"]
+                },
+                {
+                    "name": "Hall 101",
+                    "space_type": "Hall",
+                    "area": {"value": 15.31, "unit": "square feet"},
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_103",
+                            "log_type": "polling",
+                            "meta_data": {},
+                            "data": [],
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 2"]
+                },
+                {
+                    "name": "Corridor 101",
+                    "space_type": "Corridor",
+                    "area": {"value": 16.24, "unit": "square feet"},
+                    "location": "",
+                    "sensors": [
+                    ],
+                    "zones": ["Zone 1"]
+                }
+
+            ],
+            "rooms": [
+                {
+                 "name": "Room 101",
+                    "room_type": "Multifunctional",
+                    "area": {"value": 45.22, "unit": "square meters"},
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_104",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        },
+                        {
+                            "name": "CO2_SENSOR_100",
+                            "log_type": "Polling",
+                            "meta_data": {},
+                            "data": [],
+                            "measure": "carbon dioxide concentration",
+                            "measure_range": {"minimum": 0, "maximum": 2000},
+                            "unit": "ppm",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 1"]
+                },
+                {
+                    "name": "ROOM 102",
+                    "room_type": "Office",
+                    "area": {"value": 78.43, "unit": "square meters"},
+                    "location": "",
+                    "meter": "",
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_104",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 600
+                        }
+                    ],
+                    "zones": ["Zone 2"]
+                },
+                {
+                    "name": "Room 103",
+                    "room_type": "Office",
+                    "area": {"value": 23.49, "unit": "square meters"},
+                    "sensors": [
+                    ],
+                    "zones": ["Zone 1"]
+                },
+                {
+                    "name": "Room 104",
+                    "room_type": "Office",
+                    "area": {"value": 19.15, "unit": "square meters"},
+                    "sensors": [
+                        {
+                            "name": "TMP_SENSOR_105",
+                            "log_type": "Polling",
+                            "measure": "temperature",
+                            "measure_range": {"minimum": -40, "maximum": 150},
+                            "input_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "output_voltage_range": {
+                                "minimum": 0,
+                                "maximum": 10,
+                                "unit": "volts"
+                            },
+                            "input_current_range": {
+                                "minimum": 4,
+                                "maximum": 20,
+                                "unit": "milliAmpere"
+                            },
+                            "output_current_range": {
+                                "minimum": 0,
+                                "maximum": 5,
+                                "unit": "milliAmpere"
+                            },
+                            "unit": "degree celsius",
+                            "data_frequency": 900
+                        },
+                        {
+                            "name": "CO2_SENSOR_101",
+                            "log_type": "Polling",
+                            "measure": "carbon dioxide concentration",
+                            "measure_range": {"minimum": 0, "maximum": 2000},
+                            "unit": "ppm",
+                            "data_frequency": 900,
+                            "measure_type": ""
+                        }
+                    ],
+                    "zones": ["Zone 1"]
+                },
+                {
+                    "name": "Toilet 101",
+                    "room_type": "washroom",
+                    "area": {"value": 30.21, "unit": "square meters"},
+                    "sensors": [
+                    ],
+                    "adjacent_spaces": [],
+                    "schedules": [],
+                    "zones": ["Zone 3"]
+                },
+                {
+                    "name": "Toilet 102",
+                    "room_type": "washroom",
+                    "area": {"value": 27.66, "unit": "square feet"},
+                    "sensors": [
+                    ],
+                    "adjacent_spaces": [],
+                    "schedules": [],
+                    "zones": ["Zone 3"]
+                }
+
+            ]
+        }
+    ]
+  }
+}
