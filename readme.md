@@ -12,5 +12,7 @@ Two client programs that use depict how to use the building model are located in
 They (the client programs) can be executed with the following commands from the main project directory:
 `python3 clients/indoor_air_quality.py` and `python3 clients/load_profile_analysis.py`.
 
+NB: Remember to install all requirements with `pip install -r requirements.txt` before running the client programs
+
 
 For any questions, reach out to *peter.yefi@mail.concordia.ca* or *peteryefi@gmail.com*
